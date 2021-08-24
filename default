@@ -966,3 +966,4 @@ post-proxy {
 }
 }
 # Wireless-WPA-Enterprise-Authentication-
+# WirelessAssignment users radiusd.conf ldap
