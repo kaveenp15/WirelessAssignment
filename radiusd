@@ -8,9 +8,5 @@ auth       required   /usr/lib/x86_64-linux-gnu/security/pam_google_authenticato
 #@include common-auth
 #@include common-account
 #@include common-password
-auth       requisite    pam_google_authenticator.so forward_pass
-auth       required     pam_sss.so use_first_pass
-account    required     pam_nologin.so
-account    include      password-auth
-session    include      password-auth
+
 #@include common-session
